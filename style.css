@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-sizing: border-box;
+}
+
+body {
+    background-color: #245AA333;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-parent{
+    display: flex;
+}
+
+.nav-child1{
+    margin-top: 29.5px;
+    gap: 32px;
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 160px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 13.5px 28px 13.5px 28px;
+    margin-top: 15px;
+    color: white;
+}
+
+.heading-1{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.paragraph-1 {
+    text-align: center;
+    margin-top: 30px;
+}    
