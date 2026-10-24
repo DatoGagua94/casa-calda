@@ -10,10 +10,11 @@ body {
     background: linear-gradient(
         to bottom,
         #245AA333 0%,
-        #245AA333 50%,
-        white 50%,
+        #245AA333 70%,
+        white 70%,
         white 100%
     );
+    background-repeat: no-repeat;
 }
 
 a {
@@ -76,30 +77,46 @@ header{
 }
 
 
-.main_section_1 {
-    display:flex;
-    flex-direction: column;
-    justify-content: ;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.section_2_part_1{
+.contact_us_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    color: black;
-    height: 628px;
-    width: 523px;
-    padding: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin-top: 60px;
 }
 
-.section_2_part_2{
-    display:flex;
+.Information_Contact{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.left-side{
+    display: flex;
     flex-direction: column;
+    align-items: ;
+    justify-content: space-evenly;
+    background-color: #F58634;
+    color: white;
+    width:350px;
+    height:628px;
+    padding: 50px;
 }
 
-.top{
-    margin-bottom: 129.5px;
+.right-side{
+    display: flex;
+    position:absolute;
+    left:500px;
+    top: 100px;
+    background-color: white;
+    padding: 50px;
+}
+
+input {
+    all: unset;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
 }
